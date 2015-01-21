@@ -28,8 +28,9 @@
 
 In Xcode Build Settings for your project:
 
-- Add to Library Search Paths: ``` $(SRCROOT)/../../../addons/ofxOSXBoost/libs/boost/lib/osx ```
-- Add to Header Search Paths:  ```$(SRCROOT)/../../../addons/ofxOSXBoost/libs/boost/include ```
+- Add to Library Search Paths ( ```LIBRARY_SEARCH_PATHS``` ) 
+```$(SRCROOT)/../../../addons/ofxOSXBoost/libs/boost/lib/osx ```
+- Add to Header Search Paths ( ```HEADER_SEARCH_PATHS``` )  ```$(SRCROOT)/../../../addons/ofxOSXBoost/libs/boost/include ```
 
 If not openFrameworks just add the ``` libs/boost/include ``` to Header Search Paths and the  ``` libs/boost/lib/osx ``` to Library Search Paths
 
